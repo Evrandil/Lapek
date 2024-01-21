@@ -1,8 +1,11 @@
 0 -> pacman nitrogen, picom
 
 
+sudo pacman -S --needed base-devel
+git clone https://aur.archlinux.org/paru.git
+cd paru
+makepkg -si
 
-1 -> pacman paru
 
 2 -> pacman Fira Code Nerd Font
 
