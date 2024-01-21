@@ -2,6 +2,8 @@
 
 2 -> pacman hyprpaper
 
+3 -> pacman chroumium
+
 2 -> pacman Fira Code Nerd Font
 
 3 -> pacman easyeffects
