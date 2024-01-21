@@ -11,4 +11,4 @@ i3 -> pacman nitrogen, picom
 7 -> paru spotify-tui
 8 -> install synth-shell
 9 -> pacman termshark ???
-10 -> install whatsapp-for-linux, messenger-nativefier, discord, signal-desktop, telegram-desktop, DisneyPlus
+10 -> install whatsapp-for-linux, messenger-nativefier, discord, signal-desktop, telegram-desktop, DisneyPlus, powierline-fonts
