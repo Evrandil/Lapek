@@ -1,6 +1,4 @@
-i3 or hyprland - that is THE question
-
-i3 -> pacman nitrogen, picom
+0 -> pacman nitrogen, picom
 
 
 
