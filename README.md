@@ -1,10 +1,6 @@
-i3 or hyprland - that is THE question
-
-i3 -> pacman nitrogen, picom
-
-
-
 1 -> pacman paru
+
+2 -> pacman hyprpaper
 
 2 -> pacman Fira Code Nerd Font
 
