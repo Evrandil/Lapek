@@ -1,1 +1,188 @@
 
+
+/* Global {{{ */
+
+body
+{
+	background-image: url('images/NicePesaje.jpg');
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-position: center;
+	background-size: cover;
+/*	background: #f0ffff;*/
+}
+
+/* }}} */
+
+
+
+/* Header {{{ */
+
+header
+{
+	text-align: center;
+	background-color: #000000a0;
+	color: #ffffffff;
+	padding-top: 15px;
+	padding-bottom: 5px;
+	position: fixed;
+	top: -20px;
+	right: 0;
+	left: 0;
+}
+
+/* }}} */
+
+
+
+/* Footer {{{ */
+
+footer
+{
+	background-color: #000000a0;
+	color: #ffffffff;
+	padding-bottom: 5px;
+	padding-left: 100px;
+/*	border-top: solid;*/
+	position: fixed; /*absolute*/
+	bottom: -10px;
+	right: 0;
+	left: 0;
+}
+
+/* }}} */
+
+
+
+/* MainContent {{{ */
+
+.mainContent
+{
+	padding-top: 10px;
+	padding-bottom: 10px;
+	background-color: #000000a0;
+	width: 50%;
+	margin-top: 83px;
+	margin-bottom: 67px;
+	margin-left: auto;
+	margin-right: auto;
+/*	border-style: dashed;*/
+}
+
+.mainContent h1
+{
+	text-align: center;
+/*	border-style: dashed;*/
+}
+
+.mainContent h3.listTitle
+{
+/*	text-align: center;*/
+	color: #40dbce;
+}
+
+
+
+/* List {{{ */
+
+
+
+.mainContent p.listTitle
+{
+	color: #0000ff;
+}
+
+
+
+/* List itsefl {{{ */
+
+.mainContent ul
+{
+	--icon-space: 1.3em;
+	list-style: none;
+}
+
+.mainContent li:before
+{
+	content: "->";
+	display: inline-block;
+	margin-left: calc(var(--icon-space) * -1);
+	width: var(--icon-space);
+	color: #0000ff;
+}
+
+.mainContent a.separator
+{
+	color: #0000ff;
+}
+
+/* }}} */
+
+
+
+/* Link title {{{ */
+.mainContent a.titulo:link
+{
+	text-decoration: none;
+	color: hotpink;
+}
+
+
+.mainContent a.titulo:visited
+{
+	text-decoration: none;
+	color: hotpink;
+}
+
+.mainContent a.titulo:hover
+{
+	text-decoration: none;
+	color: #00ffff;
+}
+
+.mainContent a.titulo:active
+{
+	text-decoration: none;
+	color: #73C2FB;
+}
+
+/* }}} */
+
+
+
+/* Link description {{{ */
+.mainContent a.description:link
+{
+	text-decoration: none;
+	color: #0000ff;
+}
+
+
+.mainContent a.description:visited
+{
+	text-decoration: none;
+	color: #73C2FB;
+}
+
+.mainContent a.description:hover
+{
+	text-decoration: none;
+	color: #00ffff;
+}
+
+.mainContent a.description:active
+{
+	text-decoration: none;
+	color: #0000ff;
+}
+
+/* }}} */
+
+
+
+/* }}} */
+
+
+
+/* }}} */
+
