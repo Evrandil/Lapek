@@ -22,4 +22,4 @@ i3 -> pacman nitrogen, picom
 
 9 -> pacman termshark ???
 
-10 -> install whatsapp-for-linux, messenger-nativefier, discord, signal-desktop, telegram-desktop, DisneyPlus, powierline-fonts
+10 -> install whatsapp-for-linux, messenger-nativefier, discord, signal-desktop, telegram-desktop, DisneyPlus, powierline-fonts, wireplumber
