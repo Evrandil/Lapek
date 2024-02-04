@@ -1,11 +1,14 @@
 #!/bin/bash
 
+mv .config/* ~/.config
+mkdir ~/gitTrash
+mv FiraCode.zip ~/gitTrash
+cd ~/gitTrash
+p7 x FiraCode.zip -oFiraCode
+sudo mv FiraCode /usr/share/fonts
 sudo pacman -Syu
-sudo pacman -S hyprpaper vim neovim ranger neofetch easyeffects chroumium obsidian spotifyd powerline-fonts wireplumber discord
+sudo pacman -S hyprpaper vim neovim ranger neofetch easyeffects chroumium obsidian spotifyd powerline-fonts wireplumber discord p7zip
 sudo pacman -S --needed base-devel
-cd ~
-mkdir gitTrash
-cd gitTrash
 git clone https://aur.archlinux.org/paru.git
 cd paru
 makepkg -si
@@ -20,4 +23,3 @@ paru -S disneyplus
 paru -S messenger-nativefier
 paru -S whatsapp-for-linux
 
-2 -> install Fira Code Nerd Font
