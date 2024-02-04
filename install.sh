@@ -11,7 +11,7 @@ rm .git -rf
 rm .config -r
 sudo mv FiraCode /usr/share/fonts
 sudo pacman -Syu
-sudo pacman -S hyprpaper vim neovim ranger neofetch easyeffects chroumium obsidian spotifyd powerline-fonts wireplumber discord p7zip
+sudo pacman -S kitty hyprland hyprpaper vim neovim ranger neofetch easyeffects chroumium obsidian spotifyd powerline-fonts wireplumber discord p7zip
 sudo pacman -S --needed base-devel
 cd ~/gitTrash
 git clone https://aur.archlinux.org/paru.git
@@ -24,6 +24,7 @@ cd synth-shell
 cd ..
 paru -S spotify-tui
 sudo pacman -S signal-desktop telegram-desktop
+paru -S hyprshot
 paru -S disneyplus
 paru -S messenger-nativefier
 paru -S whatsapp-for-linux
