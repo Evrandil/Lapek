@@ -1,6 +1,5 @@
 #!/bin/bash
 
-
 mv .config/* ~/.config
 mv .bashrc ~
 p7 x FiraCode.zip -oFiraCode
@@ -39,7 +38,10 @@ mkdir Browser
 cd Browser
 git clone https://github.com/Evrandil/HomePage
 cd ~
+rm ~/.config/synth-shell -rf
+mv ~/gitTrash/Lapek/after/synth-shell ~/.config -rf
+rm ~/gitTrash/Lapek/after -rf
 mkdir Gigachad
-cat gigachad.txt
 mv ~/gitTrash/Lapek/gigachad.txt Gigachad
+cat Gigachad/gigachad.txt
 echo "Remember to log into Discord, signal, telegram, Disney+, messenger & whatsapp accounts"
