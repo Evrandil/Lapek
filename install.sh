@@ -2,7 +2,13 @@
 
 
 mv .config/* ~/.config
+mv .bashrc ~
 p7 x FiraCode.zip -oFiraCode
+rm FiraCode.zip
+rm README.md
+rm Wlan.md
+rm .git -rf
+rm .config -r
 sudo mv FiraCode /usr/share/fonts
 sudo pacman -Syu
 sudo pacman -S hyprpaper vim neovim ranger neofetch easyeffects chroumium obsidian spotifyd powerline-fonts wireplumber discord p7zip
