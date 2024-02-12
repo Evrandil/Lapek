@@ -82,8 +82,7 @@ rm ~/.config/spotify-tui -rf
 mv .config/spotify-tui ~/.config
 
 cd ~
-mkdir Gigachad
-mv ~/gitTrash/Lapek/gigachad.txt Gigachad
+mv ~/gitTrash/Lapek/Gigachad .
 cat Gigachad/gigachad.txt
 echo "Remember to log into Discord, Signal, Telegram, Disney+, Netfix, Messenger & Whatsapp accounts"
 
