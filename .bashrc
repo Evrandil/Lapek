@@ -17,6 +17,8 @@ alias ipa='ip addr'
 alias ipr='ip route'
 alias ff='for f in nocaseglob nullglob *.{flac,ape,wv,m4a,aac,mp4,shn,tta,wma,mp3} ; do ffplay -autoexit "$f"; done'
 alias fman='compgen -c | fzf | xargs man'
+alias kFM='killall FacebookMessenger'
+
 PS1='[\u@\h \W]\$ '
 
 ##-----------------------------------------------------
@@ -35,4 +37,10 @@ fi
 ## better-history
 if [ -f /home/evrandil/.config/synth-shell/better-history.sh ] && [ -n "$( echo $- | grep i )" ]; then
 	source /home/evrandil/.config/synth-shell/better-history.sh
+fi
+
+##-----------------------------------------------------
+## alias
+if [ -f /home/evrandil/.config/synth-shell/alias.sh ] && [ -n "$( echo $- | grep i )" ]; then
+	source /home/evrandil/.config/synth-shell/alias.sh
 fi
