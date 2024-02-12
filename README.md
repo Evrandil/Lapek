@@ -9,5 +9,5 @@ cd gitTrash
 gh auth login
 git clone https://github.com/Evrandil/Lapek --branch hyprland
 cd Lapek
-bash install.sh
+bash fastInstall.sh
 ```

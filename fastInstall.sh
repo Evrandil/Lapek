@@ -4,8 +4,7 @@
 
 # Pacman {{{
 
-sudo pacman -Syu	# for updating mirrors & system
-sudo pacman -S base-devel git github-cli julia php go cairo curl calc p7zip sed tldr fd ripgrep fzf vim neovim botp neofetch ranger hyprland kitty hyprpaper obsidian powerline-fonts bluez bluez-utils signal-desktop telegram-desktop discord pipewire wireplumber spotifyd easyeffects chromium btop grim slurp
+sudo pacman -S --needed --noconfirm --disable-download-timeout base-devel julia php go cairo curl calc p7zip sed tldr fd ripgrep fzf vim neovim botp neofetch ranger hyprland kitty hyprpaper obsidian powerline-fonts bluez bluez-utils signal-desktop telegram-desktop discord pipewire wireplumber spotifyd easyeffects chromium btop grim slurp
 # sudo pacman -S bc brainfuck
 
 # }}}
@@ -14,7 +13,6 @@ sudo pacman -S base-devel git github-cli julia php go cairo curl calc p7zip sed 
 
 # Git {{{
 
-gh auth login
 cd ~/.config
 rm nvim -rf
 git clone https://github.com/Evrandil/nvim
@@ -90,3 +88,4 @@ cat Gigachad/gigachad.txt
 echo "Remember to log into Discord, Signal, Telegram, Disney+, Netfix, Messenger & Whatsapp accounts"
 
 # }}}
+
