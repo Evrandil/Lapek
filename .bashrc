@@ -7,13 +7,16 @@
 
 alias ls='ls --color=auto'
 alias grep='grep --color=auto'
-alias ll='ls -l'
-alias la='ls -a'
-alias lla='ls -la'
+alias ll='ls -lh'
+alias la='ls -ah'
+alias lla='ls -lah'
 alias nivm='nvim'
 alias obsidajan='obsidian'
 alias Obsidajan='obsidian'
-
+alias ipa='ip addr'
+alias ipr='ip route'
+alias ff='for f in nocaseglob nullglob *.{flac,ape,wv,m4a,aac,mp4,shn,tta,wma,mp3} ; do ffplay -autoexit "$f"; done'
+alias fman='compgen -c | fzf | xargs man'
 PS1='[\u@\h \W]\$ '
 
 ##-----------------------------------------------------
