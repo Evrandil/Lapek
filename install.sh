@@ -153,7 +153,7 @@ mv .config/tofi ~/.config
 
 
 
-sudo pacman -S obsidian bluez bluez-utils	# common stuff
+sudo pacman -S calcurse obsidian bluez bluez-utils	# common stuff
 
 
 
