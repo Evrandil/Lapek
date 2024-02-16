@@ -4,8 +4,9 @@
 
 # Pacman {{{
 
-sudo pacman -S --needed --noconfirm --disable-download-timeout base-devel julia php go cairo curl calc p7zip sed tldr fd ripgrep fzf vim neovim neofetch ranger hyprland kitty hyprpaper obsidian powerline-fonts bluez bluez-utils signal-desktop telegram-desktop discord pipewire wireplumber spotifyd easyeffects chromium btop grim slurp calcurse testdisk
+sudo pacman -S --needed --noconfirm --disable-download-timeout base-devel julia php go cairo curl calc p7zip sed tldr fd ripgrep fzf vim neovim neofetch ranger hyprland kitty hyprpaper obsidian powerline-fonts bluez bluez-utils signal-desktop telegram-desktop discord pipewire wireplumber spotifyd easyeffects chromium btop grim slurp calcurse testdisk gtk-layer-shell rustup
 # sudo pacman -S bc brainfuck
+rustup default stable
 
 # }}}
 
@@ -28,7 +29,7 @@ git clone https://github.com/Evrandil/HomePage
 cd ~/gitTrash
 git clone https://aur.archlinux.org/paru.git
 cd paru
-makepkg si
+makepkg -si
 cd ..
 git clone --recursive https://github.com/andresgongora/synth-shell.git
 cd synth-shell
@@ -37,6 +38,12 @@ cd ../Lapek
 rm ~/.config/synth-shell -rf
 mv after/synth-shell ~/.config
 rm after -rf
+git clone https://github.com/Elkowar/eww
+cd eww
+cargo build --release --no-default-features --features=wayland
+sudo cp target/release/eww /bin
+cd ../Lapek
+mv .config/eww ~/.config
 
 # }}}
 
