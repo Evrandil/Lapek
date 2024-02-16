@@ -16,6 +16,8 @@ rustup default stable
 
 git config --global user.email "grzes.zapala@gmail.com"
 git config --global user.name "Evrandil"
+git clone --depth 1 https://github.com/wbthomason/packer.nvim\
+ ~/.local/share/nvim/site/pack/packer/start/packer.nvim
 cd ~/.config
 rm nvim -rf
 git clone https://github.com/Evrandil/nvim
