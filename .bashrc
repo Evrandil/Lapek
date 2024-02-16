@@ -18,6 +18,7 @@ alias ipr='ip route'
 alias ff='for f in nocaseglob nullglob *.{flac,ape,wv,m4a,aac,mp4,shn,tta,wma,mp3} ; do ffplay -autoexit "$f"; done'
 alias fman='compgen -c | fzf | xargs man'
 alias kFM='killall FacebookMessenger'
+alias btop='btop --utf-force'
 
 PS1='[\u@\h \W]\$ '
 
