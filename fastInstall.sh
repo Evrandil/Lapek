@@ -14,6 +14,8 @@ rustup default stable
 
 # Git {{{
 
+git config --global user.email "grzes.zapala@gmail.com"
+git config --global user.name "Evrandil"
 cd ~/.config
 rm nvim -rf
 git clone https://github.com/Evrandil/nvim
