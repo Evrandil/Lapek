@@ -20,6 +20,7 @@ alias ff='for f in nocaseglob nullglob *.{flac,ape,wv,m4a,aac,mp4,shn,tta,wma,mp
 alias fman='compgen -c | fzf | xargs man'
 alias kFM='killall FacebookMessenger'
 alias btop='btop --utf-force'
+alias cmatrix='cmatrix -C magenta'
 
 PS1='[\u@\h \W]\$ '
 
