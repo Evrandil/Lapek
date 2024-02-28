@@ -56,7 +56,7 @@ mv .config/eww ~/.config
 
 # Paru {{{
 
-paru -S hyprshot tofi messenger-nativefier whatsapp-for-linux spotify-tui disneyplus netflix bluetuith
+paru -S hyprshot tofi messenger-nativefier whatsapp-for-linux spotify-tui disneyplus netflix bluetuith nvim-packer-git
 
 # }}}
 
