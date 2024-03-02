@@ -4,7 +4,7 @@
 
 # Pacman {{{
 
-sudo pacman -S --needed --noconfirm --disable-download-timeout base-devel julia php go cairo curl calc p7zip sed tldr fd ripgrep fzf vim neovim neofetch ranger hyprland kitty hyprpaper obsidian powerline-fonts bluez signal-desktop telegram-desktop discord pipewire wireplumber spotifyd easyeffects chromium btop grim slurp calcurse testdisk gtk-layer-shell rustup neovide cmatrix nvtop bookworm gimp networkmanager bluez kalgebra nmap inetutils bat gzip
+sudo pacman -S --needed --noconfirm --disable-download-timeout base-devel julia php go cairo curl calc p7zip sed tldr fd ripgrep fzf vim neovim neofetch ranger hyprland kitty hyprpaper obsidian powerline-fonts bluez signal-desktop telegram-desktop discord pipewire wireplumber spotifyd easyeffects chromium btop grim slurp calcurse testdisk gtk-layer-shell rustup neovide cmatrix nvtop bookworm gimp networkmanager bluez kalgebra nmap inetutils bat gzip ruby
 # sudo pacman -S openvpn qopenvpn
 # sudo pacman -S bc brainfuck
 rustup default stable
