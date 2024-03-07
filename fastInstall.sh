@@ -4,8 +4,7 @@
 
 # Pacman {{{
 
-sudo pacman -S --needed --noconfirm --disable-download-timeout base-devel julia php go cairo curl calc p7zip sed tldr fd ripgrep fzf vim neovim neofetch ranger hyprland kitty hyprpaper obsidian powerline-fonts bluez signal-desktop telegram-desktop discord pipewire wireplumber spotifyd easyeffects chromium btop grim slurp calcurse testdisk gtk-layer-shell rustup neovide cmatrix nvtop bookworm gimp networkmanager bluez kalgebra nmap inetutils bat gzip ruby nautilus
-# sudo pacman -S openvpn qopenvpn
+sudo pacman -S --needed --noconfirm --disable-download-timeout base-devel julia php go cairo curl calc p7zip sed tldr fd ripgrep fzf vim neovim neofetch ranger hyprland kitty hyprpaper obsidian powerline-fonts bluez signal-desktop telegram-desktop discord pipewire wireplumber spotifyd easyeffects chromium btop grim slurp calcurse testdisk gtk-layer-shell rustup neovide cmatrix nvtop bookworm gimp networkmanager bluez kalgebra bat gzip ruby nautilus openvpn qopenvpn
 # sudo pacman -S bc brainfuck
 rustup default stable
 
@@ -13,7 +12,7 @@ rustup default stable
 
 # Pentesting tools {{{
 
-# sudo pacman -S termshark
+# sudo pacman -S --needed --noconfirm --disable-download-timeout termshark nmap inetutils
 
 # }}}
 
@@ -72,7 +71,7 @@ paru -S hyprshot tofi messenger-nativefier whatsapp-for-linux spotify-tui disney
 
 # Pentesting tools {{{
 
-# paru -S ruby-evil-winrm gobuster dirbuster gobuster dirbuster
+# paru -S ruby-evil-winrm gobuster dirbuster gobuster dirbuster burpsuite
 # Wordlist !!!
 
 # }}}
