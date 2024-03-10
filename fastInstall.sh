@@ -4,11 +4,20 @@
 
 # Pacman {{{
 
-sudo pacman -S --needed --noconfirm --disable-download-timeout base-devel julia php go cairo curl calc p7zip sed tldr fd ripgrep fzf vim neovim neofetch ranger hyprland kitty hyprpaper obsidian powerline-fonts bluez signal-desktop telegram-desktop discord pipewire wireplumber spotifyd easyeffects chromium btop grim slurp calcurse testdisk gtk-layer-shell rustup neovide cmatrix nvtop bookworm gimp networkmanager bluez kalgebra nmap inetutils bat gzip ruby fish fisher
-# sudo pacman -S openvpn qopenvpn
+sudo pacman -S --needed --noconfirm --disable-download-timeout base-devel man-db julia php go cairo curl calc p7zip sed tldr fd ripgrep fzf vim neovim neofetch ranger hyprland kitty hyprpaper obsidian powerline-fonts bluez signal-desktop telegram-desktop discord pipewire wireplumber spotifyd easyeffects chromium btop grim slurp calcurse testdisk gtk-layer-shell rustup neovide cmatrix nvtop bookworm gimp networkmanager bluez kalgebra bat gzip ruby nautilus openvpn qopenvpn fish fisher
 # sudo pacman -S bc brainfuck
 rustup default stable
 fisher install IlanCosman/tide@v6
+
+
+
+# Pentesting tools {{{
+
+# sudo pacman -S --needed --noconfirm --disable-download-timeout termshark nmap inetutils
+
+# }}}
+
+
 
 # }}}
 
@@ -58,6 +67,17 @@ mv .config/eww ~/.config
 # Paru {{{
 
 paru -S hyprshot tofi messenger-nativefier whatsapp-for-linux spotify-tui disneyplus netflix bluetuith nvim-packer-git nerdfetch
+
+
+
+# Pentesting tools {{{
+
+# paru -S ruby-evil-winrm gobuster dirbuster gobuster dirbuster burpsuite
+# Wordlist !!!
+
+# }}}
+
+
 
 # }}}
 
