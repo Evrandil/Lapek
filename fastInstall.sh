@@ -66,7 +66,7 @@ mv .config/eww ~/.config
 
 # Paru {{{
 
-paru -S hyprshot tofi messenger-nativefier whatsapp-for-linux spotify-tui disneyplus netflix bluetuith nvim-packer-git nerdfetch buddhasay biblesay termtrack term-sudoku
+paru -S hyprshot tofi messenger-nativefier whatsapp-for-linux spotify-tui disneyplus netflix bluetuith nvim-packer-git nerdfetch buddhasay biblesay termtrack term-sudoku st
 
 
 
