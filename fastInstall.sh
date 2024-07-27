@@ -13,7 +13,7 @@ fisher install IlanCosman/tide@v6
 
 # Pentesting tools {{{
 
-# sudo pacman -S --needed --noconfirm --disable-download-timeout termshark nmap inetutils
+# sudo pacman -S --needed --noconfirm --disable-download-timeout termshark nmap inetutils hydra
 
 # }}}
 
